@@ -229,16 +229,27 @@
                             style="color: #4070F4; margin-right: 0.5rem;"></i> sunny.sharfuddin@gmail.com</p>
                 </div>
 
-                <form action="https://formsubmit.co/sunny.sharfuddin@gmail.com" method="POST" class="contact__form">
-                    <!-- Disable Captcha optionally (you can remove this if you want spam protection) -->
+                <!-- <form action="https://formsubmit.co/sunny.sharfuddin@gmail.com" method="POST" class="contact__form">
+                  
                     <input type="hidden" name="_captcha" value="false">
-                    <!-- Success page bypass -->
+                    
                     <input type="hidden" name="_next" value="#">
 
                     <input type="text" name="name" placeholder="Name" class="contact__input" required>
                     <input type="email" name="email" placeholder="Email" class="contact__input" required>
                     <textarea name="message" id="" cols="0" rows="10" placeholder="Your Message..."
                         class="contact__input" required></textarea>
+
+                    <button type="submit" class="contact__button button">Send Message</button>
+                </form> -->
+                <form action="https://formsubmit.co/sunny.sharfuddin@gmail.com" method="POST" class="contact__form">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://msunnykhann.github.io/portfolio/thankyou.html">
+
+                    <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                    <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                    <textarea name="message" cols="0" rows="10" placeholder="Your Message..." class="contact__input"
+                        required></textarea>
 
                     <button type="submit" class="contact__button button">Send Message</button>
                 </form>
